@@ -2,9 +2,9 @@ import sys
 sys.path.append('/workspaces/IOL/IOLBackendv2')
 from utils.Logger import logger
 
-from Col.Collection import Collection
-from Col.Document import Document
-from Col.CollectionException import CollectionDoesNotExist
+from collection.Collection import Collection
+from collection.Document import Document
+from collection.CollectionException import CollectionDoesNotExist
 
 class Collections:
   """Collections holds multiple Collection instances.
