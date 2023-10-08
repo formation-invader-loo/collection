@@ -8,8 +8,8 @@ import os
 import uuid
 import configparser
 
-from Col.Document import Document
-from Col.CollectionException import DocumentAlreadyExists, DocumentDoesNotExist
+from collection.Document import Document
+from collection.CollectionException import DocumentAlreadyExists, DocumentDoesNotExist
 
 class Collection:
   """A collection is a Directory containing one or multiple Documents
